@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0 auto;
+  background-image: url(/images/bg-pattern-bottom.svg);
+  background-repeat: repeat;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.container__card {
+  background-color: white;
+  margin: 100px auto;
+  max-width: 275px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 5px rgba(15, 68, 88, 0.329);
+}
+
+.container__background {
+  max-width: 275px;
+  border-radius: 5px 5px 0 0;
+  margin: auto;
+}
+
+img {
+  margin: auto;
+}
+
+.victor {
+  border-radius: 180px;
+  border: 0.25em solid white;
+  margin-top: -50px;
+  text-align: center;
+  margin-left: 85px;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+}
+
+.age {
+  font-weight: lighter;
+  color: gray;
+}
+
+.crest {
+  font-weight: bold;
+}
+
+.london {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+hr {
+  border-top: 0.25px solid gray;
+}
+
+.row {
+  margin: auto;
+  text-align: center;
+}
+
+.numbers {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 0.65rem;
+  color: gray;
+  padding-bottom: 15px;
+}
